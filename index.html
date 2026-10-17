@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <!-- ==== CSS Style Link Start ==== -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- ==== CSS Style Link End ==== -->
+  </head>
+  <body>
+    <h1 id="title">JavaScript DOM Practice</h1>
+
+    <!-- 1. Student Marks -->
+
+    <h2>Student Marks</h2>
+
+    <input type="text" id="studentName" placeholder="Student name" />
+    <input type="number" id="studentMarks" placeholder="Marks" />
+
+    <button id="addStudent">Add Student</button>
+
+    <p id="studentMessage"></p>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Marks</th>
+          <th>Grade</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="studentTable"></tbody>
+    </table>
+    <hr />
+
+    <!-- 2. Search Students -->
+
+    <h2>Search Student</h2>
+    <input type="text" id="searchStudent" placeholder="Search by name" />
+    <button id="searchBtn">Search</button>
+    <p id="searchResult"></p>
+    <hr />
+
+    <!-- 3. Todo List -->
+
+    <h2>Todo List</h2>
+    <input type="text" id="todoInput" placeholder="Enter task" />
+    <button id="addTodo">Add Todo</button>
+    <ul id="todoList"></ul>
+    <hr />
+
+    <!-- 4. Number Filter -->
+
+    <h2>Number Filter</h2>
+    <input type="number" id="numberInput" placeholder="Enter number" />
+    <button id="addNumber">Add Number</button>
+    <button id="showEven">Show Even</button>
+    <button id="showOdd">Show Odd</button>
+    <button id="showAll">Show All</button>
+    <ul id="numberList"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
